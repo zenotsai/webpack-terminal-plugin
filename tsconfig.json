@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "ESNext",
+    "lib": [
+      "esnext",
+      "DOM"
+    ],
+    "types": [
+      "node",
+    ],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "strict": false,
+    "strictNullChecks": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "global.d.ts"
+  ]
+}

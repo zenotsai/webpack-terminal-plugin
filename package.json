@@ -1,0 +1,42 @@
+{
+  "name": "webpack-plugin-terminal",
+  "version": "1.0.1",
+  "description": "Log in the node terminal from the browser",
+  "main": "./dist/index",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch src"
+  },
+  "files": [
+    "package.json",
+    "dist",
+    "*.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "terminal",
+    "webpack-terminal-plugin",
+    "webpack-plugin",
+    "webpack"
+  ],
+  "author": "zenotsai",
+  "license": "ISC",
+  "peerDependencies": {
+    "html-webpack-plugin": ">=4.4.1",
+    "webpack-dev-server": ">=4.0.0",
+    "webpack": ">=4.40.0"
+  },
+  "dependencies": {
+    "@types/webpack": "^5.28.0",
+    "insert-string-after": "^1.0.0",
+    "kolorist": "^1.5.1",
+    "picocolors": "^1.0.0",
+    "readline": "^1.3.0",
+    "tsup": "^5.12.5",
+    "typescript": "^4.6.3",
+    "ufo": "^0.8.3",
+    "webpack-plugin-terminal": "file:.yalc/webpack-plugin-terminal",
+    "webpack-sources": "^3.2.3"
+  }
+}

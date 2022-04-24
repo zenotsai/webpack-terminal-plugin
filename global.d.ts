@@ -1,0 +1,1 @@
+type insertStringAfter = () => void;
