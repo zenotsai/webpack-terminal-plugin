@@ -45,6 +45,14 @@ const {  terminalMiddleware } = require("webpack-plugin-terminal");
   },
 ```
 
+
+## Types
+
+- In your `global.d.ts` file add the following line:
+  ```ts
+      /// <reference types="webpack-plugin-terminal/client" />
+  ```
+
 ## Options
 
 

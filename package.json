@@ -1,6 +1,6 @@
 {
   "name": "webpack-plugin-terminal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Log in the node terminal from the browser",
   "main": "./dist/index",
   "scripts": {
